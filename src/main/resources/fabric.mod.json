@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "farmer-auto-sell",
+  "version": "1.0.0",
+  "name": "Farmer Auto Sell",
+  "authors": ["Ekrem_imamoglu (Ersen)"],
+  "description": "Otomatik satış ve sayfa değiştirme modu.",
+  "contact": {},
+  "icon": "assets/farmer-auto-sell/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.FarmerAutoSellClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
